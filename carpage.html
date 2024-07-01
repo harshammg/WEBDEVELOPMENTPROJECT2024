@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Table</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .table {
+            margin: auto;
+            width: 80%; /* Adjust width as needed */
+        }
+        table, th, td {
+            border: 1px solid black;
+            width: 100%;
+            font-size: 18px;
+            padding: 8px;
+            border-collapse: collapse;
+            margin: auto; /* Center-align table within its container */
+        }
+        .hed1 {
+            background-color: hotpink;
+        }
+        .si {
+            width: 10%;
+        }
+        .comp {
+            width: 40%;
+            text-align: center;
+        }
+        th {
+            background-color: teal;
+            color: white;
+        }
+        .next, button {
+            width: 80%;
+            background-color: grey;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            display: inline-block; /* Ensure button/link takes full width */
+            margin-top: 10px; /* Add spacing between elements */
+        }
+        .next:hover, button:hover {
+            background-color: darkgrey;
+        }
+        .h1 {
+            font-style: italic;
+            color: #000080;
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 10px; /* Add spacing below heading */
+        }
+    </style>
+</head>
+<body>
+    <div class="table">
+        <table>
+            <thead>
+                <tr class="hed1">
+                    <th colspan="3">
+                        <h1 class="h1">Some Information about Cars <br>
+                            <a href="informationpage.html" class="next">More Information</a>
+                        </h1>
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2"><h2>Company</h2></th>
+                    <th><h2>Cars</h2></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3" class="si">1</td>
+                    <td rowspan="3" class="comp">Maruti Suzuki</td>
+                    <td>Swift</td>
+                </tr>
+                <tr>
+                    <td>Dzire</td>
+                </tr>
+                <tr>
+                    <td>Wagon R</td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="si">2</td>
+                    <td rowspan="3" class="comp">Hyundai Motors</td>
+                    <td>Creta</td>
+                </tr>
+                <tr>
+                    <td>Grand i10</td>
+                </tr>
+                <tr>
+                    <td>Verna</td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="si">3</td>
+                    <td rowspan="3" class="comp">Tata Motors</td>
+                    <td>Nexon</td>
+                </tr>
+                <tr>
+                    <td>Harrier</td>
+                </tr>
+                <tr>
+                    <td>Tiago</td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="si">4</td>
+                    <td rowspan="3" class="comp">Mahindra & Mahindra</td>
+                    <td>Thar</td>
+                </tr>
+                <tr>
+                    <td>Bolero</td>
+                </tr>
+                <tr>
+                    <td>XUV300</td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="si">5</td>
+                    <td rowspan="3" class="comp">Kia</td>
+                    <td>Seltos</td>
+                </tr>
+                <tr>
+                    <td>Sonet</td>
+                </tr>
+                <tr>
+                    <td>Carnival</td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="home1.html"><button>Go Back</button></a>
+    </div>
+</body>
+</html>
